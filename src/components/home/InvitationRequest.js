@@ -80,7 +80,7 @@ export default class InvitationRequest extends Component {
           <FieldGroup
             id="email"
             name="email"
-            type="text"
+            type="email"
             value={this.state.email}
             label="Email"
             placeholder="Enter email"
@@ -91,7 +91,7 @@ export default class InvitationRequest extends Component {
           <FieldGroup
             id="confirmEmail"
             name="confirmEmail"
-            type="text"
+            type="email"
             value={this.state.confirmEmail}
             label="Confirm email"
             placeholder="Enter confirm email"

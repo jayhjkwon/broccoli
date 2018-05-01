@@ -15,6 +15,11 @@ npm run dev
 npm test
 ```
 
+## Run the application in production mode
+```sh
+npm start
+```
+
 ## Tech stack used for this app
 - React
 - Redux
