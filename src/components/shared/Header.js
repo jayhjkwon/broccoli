@@ -14,7 +14,7 @@ const HeaderContainer = styled.div`
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   padding: 0 0 0 20%;
 
-  @media (max-width: 400px) {
+  @media (max-width: 768px) {
     padding: 0;
     text-align: center;
   }

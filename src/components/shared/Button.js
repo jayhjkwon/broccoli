@@ -14,8 +14,12 @@ const StyledButton = styled.button`
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
-  width: auto;
-  border-radius: ${props => (props.primary ? '0' : '4px')}
+	width: auto;
+	touch-action: manipulation;
+	user-select: none
+	background-image: none;
+	border-radius: 4px;
+	border: 0;
 	${props => (props.marginRight ? `margin-right:${props.marginRight}` : '')}
 	opacity: ${props => (props.disabled || props.isLoading ? '0.4' : '1')}
 
